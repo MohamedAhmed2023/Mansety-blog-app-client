@@ -1,0 +1,145 @@
+.singlePost {
+  flex: 9;
+}
+
+.singlePostWrapper {
+  padding: 20px;
+  padding-right: 0;
+  display: flex;
+  flex-direction: column;
+  direction: rtl !important;
+}
+
+.singlePostImg {
+  width: 80%;
+  margin: auto;
+  height: 80vh;
+  border-radius: 5px;
+
+}
+
+.singlePostTitle {
+  text-align: center;
+  margin: 10px;
+  font-family: "Lora", serif;
+  font-size: 2rem;
+  direction: rtl;
+  font-weight: bold;
+  direction: rtl !important;
+}
+
+.singlePostTitleInput,
+.singlePostDescInput {
+  width: 100%;
+  font-size: 1.5rem;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin: 10px 0;
+  outline: none;
+  direction: rtl !important;
+}
+
+.singlePostTitleInput:focus {
+  outline: none;
+}
+
+.singlePostEdit span {
+  float: right;
+  font-size: 16px;
+  direction: rtl !important;
+  margin: 0 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.singlePostEdit span {
+  margin: 0 5px;
+}
+
+.singlePostIcon {
+  margin-left: 0 10px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.singlePostIcon:first-child {
+  color: teal;
+}
+
+.singlePostIcon:last-child {
+  color: tomato;
+}
+
+.singlePostInfo {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Varela Round", sans-serif;
+  color: teal;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  direction: rtl;
+  direction: rtl !important;
+}
+
+.singlePostDesc {
+  color: #000;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 10px 20px;
+  white-space: pre-wrap;
+  text-align: start;
+}
+
+.singlePostDesc::first-letter {
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 600;
+  direction: rtl !important;
+}
+
+.singlePostDescInput {
+  border: none;
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+  direction: rtl;
+}
+
+.singlePostDescInput:focus {
+  outline: none;
+}
+
+.singlePostButton {
+  width: 100px;
+  border: none;
+  background-color: teal;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: center;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .singlePostImg {
+    width: 100%;
+    height: 50vh;
+  }
+
+  .singlePostTitle {
+    float: right;
+    font-size: 2rem;
+    direction: rtl !important;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+}

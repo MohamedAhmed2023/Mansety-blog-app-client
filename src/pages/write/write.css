@@ -1,0 +1,149 @@
+.write {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  direction: rtl;
+  width: 100% !important;
+}
+
+.writeImg {
+  width: 90%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.writeForm {
+  width: 100% !important;
+  max-width: 600px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  font-size: 20px !important;
+  text-align: right !important;
+  direction: rtl;
+}
+
+
+.writeFormGroup {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.writeIcon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: rgb(121, 118, 118);
+  cursor: pointer;
+}
+
+.writeInput {
+  font-size: 18px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+
+.writeInput:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.writeText {
+  font-size: 16px;
+  height: 150px;
+  resize: none;
+  direction: rtl;
+}
+
+.writeSubmit {
+  background-color: teal;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.writeSubmit:hover {
+  background-color: #005f5f;
+}
+
+.fileInput span {
+  font-size: 30px !important;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .writeForm {
+    width: 90%;
+  }
+
+  .writeImg {
+    width: 90vw;
+  }
+
+  .writeInput {
+    font-size: 16px;
+  }
+
+  .writeText {
+    font-size: 14px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 576px) {
+  .writeImg {
+    width: 100vw;
+    height: 200px;
+  }
+
+  .writeInput {
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  .writeText {
+    font-size: 12px;
+    height: 100px;
+  }
+
+  .writeSubmit {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+.writeEditor {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  direction: rtl;
+  text-align: right !important;
+  direction: rtl;
+}
